@@ -1,0 +1,53 @@
+/* src/components/Navbar.css */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caveat:wght@400..700&family=Pacifico&family=Shadows+Into+Light&display=swap');
+
+.navbar {
+    background-color: #000000;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+  }
+  
+  .navbar-brand a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 50px;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 1000;
+   
+  }
+  
+  .navbar-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    margin-left: 1rem;
+    font-family: 'Roboto', sans-serif; /* Change font family */
+    font-size: 1.2rem; /* Change font size */
+    font-family: "Shadows Into Light", cursive;
+  }
+  
+  .navbar-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+  .butn{
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: "Shadows Into Light", cursive;
+  }

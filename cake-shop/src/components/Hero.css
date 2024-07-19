@@ -1,0 +1,60 @@
+/* src/components/Hero.css */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&family=Shadows+Into+Light&display=swap');
+
+.hero {
+    display: flex;
+    background-color: #ca7a7a;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    
+    
+  }
+  
+  .hero-content {
+    max-width: 60%;
+    padding-left: 100px;
+   
+    
+  }
+  
+  .hero h1 {
+    max-width: 100;
+    font-size: 3rem;
+    color: #333;
+    font-family: "Shadows Into Light", cursive;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    color: #ffffff;
+
+    font-family: "Caveat", cursive;
+    
+  }
+  
+  .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-family: "Shadows Into Light", cursive;
+  }
+  
+  .btn:hover {
+    background-color: #ff2323;
+  }
+  
+  .hero-3dmodel {
+    width: 50%;
+    height: 650px;
+    align-items: center; 
+    padding-right: 30px;
+    padding-top: 50px;
+    
+  }
